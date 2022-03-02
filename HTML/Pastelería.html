@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content=" IE= edge">
+    <meta name="viewport" content="width=device-width, initial-sacale=1.0">
+    <link href="styles/style.css" rel="stylesheet" type="text/css">
+    <title>Pastelería</title>
+
+</head>
+<body>
+   
+    <h1>Pastelería LaunchX</h1>
+
+
+<form action="pedido.js">
+    <h2>Datos de Usuario</h2>
+    <label for="Nombre" >Ingresa tu nombre</label><br>
+    <input type="text" id="Nombre" value="Nombre"><br>
+    
+    <label for="telefono" >Ingresa tu número de telefono</label><br>
+    <input type="tel" id="telefono" value="Telefono"><br>
+   
+    <label for="correo" >Ingresa tu correo electrónico</label><br>
+    <input type="email" id="correo" value="Correo"><br>
+   
+    <label for="Desc" >Danos la descripción general de tu pastel</label><br>
+    <input type="text" id="Desc" value="Descripción"><br>
+    
+    <h2>Tipos de pasteles y precios</h2>
+    <h3>Seleccione el o los sabores de su pastel (máximo 3)</h3>
+    <ul>
+        <li>Sabores: <br>
+            <input type="checkbox" id="Chocolate" name="Sabores" value="Chocolate">
+            <label for="Chocolate"> Chocolate</label>
+            <input type="checkbox" id="Vainilla" name="Sabores" value="Vainilla">
+            <label for="Vainilla"> Vainilla</label>
+            <input type="checkbox" id="Fresas con crema" name="Sabores" value="Fresas con crema">
+            <label for="Fresas con crema"> Fresas con crema</label>
+            <input type="checkbox" id="Oreo" name="Sabores" value="Oreo">
+            <label for="Oreo"> Oreo</label>
+            <input type="checkbox" id="Café" name="Sabores" value="Café">
+            <label for="Café"> Café</label>
+
+        </li>
+    </ul>
+    <ul>
+        <li>Decoraciones:
+            <br>
+            
+            
+
+        </li>
+
+    </ul>
+    <ul>
+        <li>Tamaño: <br>
+             <input type="radio" id="Chico" name="Chocolate" value="Chico">
+             <label for="Chico">Chico-------$100</label> 
+             <br>
+             <input type="radio" id="Mediano" name="Chocolate" value="Mediano">
+            <label for="Mediano">Mediano----$150</label> 
+            <br>
+            <input type="radio" id="Grande" name="Chocolate" value="Grande">
+            <label for="Grande">Grande------$250</label> 
+            <br>
+        </li>
+    </ul>
+    <input type="submit">
+    <input type="reset">
+</form>
+</body>
