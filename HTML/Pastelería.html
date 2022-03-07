@@ -10,27 +10,27 @@
 </head>
 <body>
    
-    <h1>Pastelería LaunchX</h1>
+    <h1 class="a">Launch X</h1>
 
 
 <form action="pedido.js">
-    <h2>Datos de Usuario</h2>
-    <label for="Nombre" >Ingresa tu nombre</label><br>
-    <input type="text" id="Nombre" value="Nombre"><br>
-    
-    <label for="telefono" >Ingresa tu número de telefono</label><br>
-    <input type="tel" id="telefono" value="Telefono"><br>
+    <h2  class="l">Datos de Usuario</h2>
+    <label for="Nombre" class="l2">Ingresa tu nombre</label><br><br>
+    <input type="text" id="Nombre" value="Nombre" ><br><br>
+
+    <label for="telefono"  class="l2" >Ingrea tu número de telefono</label><br><br>
+    <input type="tel" id="telefono" value="Telefono"><br><br>
    
-    <label for="correo" >Ingresa tu correo electrónico</label><br>
-    <input type="email" id="correo" value="Correo"><br>
+    <label for="correo" class="l2" >Ingresa tu correo electrónico</label><br><br>
+    <input type="email" id="correo" value="Correo"><br><br>
    
-    <label for="Desc" >Danos la descripción general de tu pastel</label><br>
-    <input type="text" id="Desc" value="Descripción"><br>
+    <label for="Desc"  class="l2">Danos la descripción general de tu pastel</label><br><br>
+    <input type="text" id="Desc" value="Descripción"><br><br>
     
     <h2>Tipos de pasteles y precios</h2>
     <h3>Seleccione el o los sabores de su pastel (máximo 3)</h3>
     <ul>
-        <li>Sabores: <br>
+        <li class="l2">Sabores:<br>
             <input type="checkbox" id="Chocolate" name="Sabores" value="Chocolate">
             <label for="Chocolate"> Chocolate</label>
             <input type="checkbox" id="Vainilla" name="Sabores" value="Vainilla">
@@ -45,16 +45,19 @@
         </li>
     </ul>
     <ul>
-        <li>Decoraciones:
+        <li class="l2">Decoraciones:
             <br>
-            
-            
-
+            <input type="checkbox" id="Nave" name="Nave" value="Nave">
+            <label for="Nave"> Nave Espacial</label>
+            <input type="checkbox" id="flores" name="flores" value="flores">
+            <label for="flores"> Flores</label>
+            <input type="checkbox" id="Diseño " name="Diseño" value="Diseño">
+            <label for="Diseño"> Diseño (Especificado en la descripción)</label><br>
         </li>
 
     </ul>
     <ul>
-        <li>Tamaño: <br>
+        <li class="l2">Tamaño: <br>
              <input type="radio" id="Chico" name="Chocolate" value="Chico">
              <label for="Chico">Chico-------$100</label> 
              <br>
@@ -66,6 +69,14 @@
             <br>
         </li>
     </ul>
+    <ul>
+        <li class="l2"> <h1>Contacto:</h1>
+            <h2>Dirección: Mercurio #300 col. Via lactea</h2>
+            <h2>Telefono: 4641203565</h2>
+            <h2>Horario: Lunes - Sabado: 8 am - 5 pm</h2>
+        </li>
+    </ul>
+    
     <input type="submit">
     <input type="reset">
 </form>
